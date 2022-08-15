@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+#topnav {
+  list-style-type: none;
+  padding: inherit;
+  overflow: hidden;
+  background-color: transparent;
+  position:absolute;
+  top: 0; right:0;
+  width:100%; font-size:20px ; font-family:Bahnschrift, "Bahnschrift SemiBold Condensed"; 
+}
+
+#logo {
+	
+	position: absolute;
+	top: 20px ;
+	left: 550px;
+	align-content: center;
+}
+
+#main-button {
+	
+	position: absolute;
+	top: 80px ;
+	left: 300px;
+	padding-top: 100px;	
+}
+
+#main-button-p {
+	position: absolute;
+	top: 350px;
+	left: 300px;
+	padding-top: 100px;
+	
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align:justify;
+  padding: 35px 25px;
+  text-decoration: none; 
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #111;
+}
+
+c li {
+  float: right;
+}
+
+c li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 22px 20px;
+  text-decoration: none; padding-left:10px
+}
+
+c li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color:#111;
+}
+
+#wrapper { 
+  overflow: hidden;
+  background-color: transparent;
+  position:absolute;
+  left: 0; top:0;
+  width:100%;
+}
+

@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contacts</title>
+<link href="../CSS/mainnav.css" rel="stylesheet" type="text/css">
+<link href="../CSS/contact.css" rel="stylesheet" type="text/css">
+
+</head>
+	<body>
+	<script type="text/javascript" src="../js/jsquery.js"></script>
+<link href="../CSS/validate.css" type="text/css" rel="stylesheet" media="screen,projection" />
+	
+	<script type="text/javascript" src="../js/validate.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('form.container').simpleValidate({
+				errorElement: 'em'
+			});
+		});
+	</script>
+		
+	<div id="wrapper"><img src="../img/CONTACT_US.png" width="100%" height="100%" alt=""/> </div>
+	
+<div id="logo1">
+  <img src="../img/LOGO TRANSPARENT (1).png" width="550" height="340" alt=""/></div>
+	
+<h1>CONTACT</h1>
+	
+	<div id="border">
+	</div>
+	
+	<div class="content">
+		
+		</div>
+		
+		
+		
+<div class="bg-img">
+ <form action="../Enter Processor Script" class="container" method="post">
+
+    <label for="name"><b>Name:</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="email"><b>E-mail:</b></label>
+    <input type="email" placeholder="Enter E-mail" name="email" required>
+
+	<label for="mssg"><b>Message:</b></label>
+    <input type="mssg" placeholder="Enter Your Message" name="message" required>
+	  
+    <button type="submit" class="btn">SEND</button>
+  </form>
+</div>
+	
+			<script type="text/javascript">
+		$(document).ready(function() {
+			$('form.container').simpleValidate({
+			  errorElement: 'em',
+			  ajaxRequest: true,
+			  completeCallback: function($el) {
+			  var formData = $el.serialize();
+			  }
+			});
+		});
+	</script>
+	
+	
+<div id="topnav">
+	
+  <li><a href="../index.html">Home</a></li>
+  <li class="dropdown"><a href="game.html" class="dropbtn">Games</a>
+
+    </li>
+	<li class="dropdown"><a href="about.html" class="dropbtn">About</a>
+    <div class="dropdown-content">
+      <a href="teams.html">The Team</a>
+    </div>
+  </li>
+
+  
+  <c><li style="float:right"><a href="https://twitter.com/lensamc111"><img src="../img/5279123_tweet_twitter_twitter logo_icon1.png" width="40" height="40" alt="twt"/></a></li></c>
+	<c><li style="float:right"><a href="https://vt.tiktok.com/ZSdQMvDGT/"><img src="../img/7693325_tiktok_social media_logo_apps_icon1.png" width="40" height="40" alt="tiktok"/></a></li></c>
+	<c><li style="float:right"><a href="https://www.instagram.com/lensa.22/"><img src="../img/5279112_camera_instagram_social media_instagram logo_icon1.png" width="40" height="40" alt="ig"/></a></li></c>
+	<li style="float:right"><a href="contact.html">Contact</a></li>
+</div>
+
+	
+<div class="footer">
+ 		@copyright
+		<div class="footerr">officiallensauitm@gmail.com</div>
+	</div>
+	
+	<div class="footersocials">
+		<h><a style="float:right">
+			<a href="https://twitter.com/lensamc111">
+				<img class= "f1" src="../img/icons/5279123_tweet_twitter_twitter logo_icon.png" width="40" height="40" alt=""/>
+			</a>
+		</a></h>
+		
+  		<h><a style="float:right">
+			<a href="https://vt.tiktok.com/ZSdQMvDGT/">
+	  			<img class= "f2" src="../img/icons/7693325_tiktok_social media_logo_apps_icon.png" width="40" height="40" alt=""/>
+	 		 </a>
+	 	</a></h>
+		
+  		<h><a style="float:right"><a>
+		 		<img class= "f3" src="../img/icons/5279112_camera_instagram_social media_instagram logo_icon.png" width="40" height="40" alt=""/>
+		 	</a>
+	  	</a></h>
+	</div>
+
+	
+</body>
+</html>

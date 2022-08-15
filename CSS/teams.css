@@ -1,0 +1,852 @@
+html, body { margin: 0; padding: 0; border: 0;  
+				background: transparent; font-size:10px; 
+	font-family: 'Poppins', sans-serif;}
+
+
+h2 { 
+	font-size:22px; 
+	text-align: center; 
+
+}
+h3 { font-size:16px; }
+h4 { font-size:16px; color: white}
+h5 { font-size:14px; margin-bottom:15px; }
+h6 { font-size:14px; }
+
+p{margin:2px;}
+
+#teams {
+	float: left;
+	}
+#Team {
+	color:black;
+	font-size: 60px;
+	letter-spacing: 20px;
+	position: absolute;
+	top: 300px;
+	left:550px;
+}
+
+#content {
+	
+}
+
+#logo {
+	position: absolute;
+	top: 25px ;
+	left: 600px;
+}
+
+.tajuk { 
+	font-size:22px; 
+	text-align: center; 
+	position: absolute;
+	color: aliceblue;
+	left: 600px;
+	top: 630px;
+	margin-bottom: 150px;
+
+}
+
+.image1 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container1 {
+  position: absolute;
+  width: 15%;
+	top:710px;
+	left:650px;
+}
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay1 {
+  background-color: #555;
+}
+
+.text1 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc1 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 43px;
+  left: 77px;
+  text-align: center;
+}
+
+.image2 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container2 {
+  position: absolute;
+  width: 15%;
+	top:980px;
+	left:240px;
+}
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container2:hover .overlay2 {
+  background-color: #555;
+}
+
+.text2 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc2 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 43px;
+  left: 50px;
+  text-align: center;
+}
+
+.image3 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container3 {
+  position: absolute;
+  width: 15%;
+	top:980px;
+	left:520px;
+}
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container3:hover .overlay3 {
+  background-color: #555;
+}
+
+.text3 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc3 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 43px;
+  left: 77px;
+  text-align: center;
+}
+
+.image4 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container4 {
+  position: absolute;
+  width: 15%;
+	top:980px;
+	left:800px;
+}
+.overlay4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container4:hover .overlay4 {
+  background-color: #555;
+}
+
+.text4 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 24px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc4 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 43px;
+  left: 77px;
+  text-align: center;
+}
+.image5 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container5 {
+  position: absolute;
+  width: 15%;
+	top:980px;
+	left:1080px;
+}
+.overlay5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container5:hover .overlay5 {
+  background-color: #555;
+}
+
+.text5 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc5 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 43px;
+  left: 85px;
+  text-align: center;
+}
+
+.image6 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container6 {
+  position: absolute;
+  width: 15%;
+	top:1250px;
+	left:240px;
+}
+.overlay6 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container6:hover .overlay6 {
+  background-color: #555;
+}
+.overlay106 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 0px;
+  transition: .5s ease;
+}
+
+.text106 {
+	color: aliceblue;
+	font-size: 14px;
+	text-align:center;
+	padding: 20px;
+	
+}
+
+.container6:hover .overlay106 {
+  background-color: #555;
+}
+.text6 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc6 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 42px;
+  left: 60px;
+  text-align: center;
+}
+
+.image7 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container7 {
+  position: absolute;
+  width: 15%;
+	top:1250px;
+	left:520px;
+}
+.overlay7 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container7:hover .overlay7 {
+  background-color: #555;
+}
+.overlay107 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 0px;
+  transition: .5s ease;
+}
+
+.text107 {
+	color: aliceblue;
+	font-size: 14px;
+	text-align:center;
+	padding: 5px;
+	
+}
+
+.container7:hover .overlay107 {
+  background-color: #555;
+}
+.text7 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc7 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 42px;
+  left: 70px;
+  text-align: center;
+}
+.image8 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container8 {
+  position: absolute;
+  width: 15%;
+	top:1250px;
+	left:800px;
+}
+.overlay8 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container8:hover .overlay8 {
+  background-color: #555;
+}
+.overlay108 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 0px;
+  transition: .5s ease;
+}
+
+.text108 {
+	color: aliceblue;
+	font-size: 14px;
+	text-align:center;
+	padding: 5px;
+	
+}
+
+.container8:hover .overlay108{
+  background-color: #555;
+}
+.text8 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 24px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc8 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 42px;
+  left: 76px;
+  text-align: center;
+}
+.image9 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container9 {
+  position: absolute;
+  width: 15%;
+	top:1250px;
+	left:1080px;
+}
+.overlay9 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container9:hover .overlay9 {
+  background-color: #555;
+}
+.overlay109 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 0px;
+  transition: .5s ease;
+}
+
+.text109 {
+	color: aliceblue;
+	font-size: 14px;
+	text-align:center;
+	padding: 5px;
+	
+}
+
+.container9:hover .overlay109 {
+  background-color: #555;
+}
+.text9 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc9 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 42px;
+  left: 32px;
+  text-align: center;
+}
+.image10 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container10 {
+  position: absolute;
+  width: 15%;
+	top:1520px;
+	left:520px;
+}
+.overlay10 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container10:hover .overlay10 {
+  background-color: #555;
+}
+.overlay110 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 0px;
+  transition: .5s ease;
+}
+
+.text110 {
+	color: aliceblue;
+	font-size: 14px;
+	text-align:center;
+	padding: 5px;
+	
+}
+
+.container10:hover .overlay110 {
+  background-color: #555;
+}
+.text10 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc10 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 42px;
+  left: 78px;
+  text-align: center;
+}
+.image11 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container11 {
+  position: absolute;
+  width: 15%;
+	top:1520px;
+	left:240px;
+}
+.overlay11 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container11:hover .overlay11 {
+  background-color: #555;
+}
+.overlay111 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 0px;
+  transition: .5s ease;
+}
+
+.text111 {
+	color: aliceblue;
+	font-size: 14px;
+	text-align:center;
+	padding: 0px;
+	
+}
+
+.container11:hover .overlay111 {
+  background-color: #555;
+}
+.text11 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 22px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc11 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 42px;
+  left: 60px;
+  text-align: center;
+}
+.image12 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container12 {
+  position: absolute;
+  width: 15%;
+	top:1520px;
+	left:800px;
+}
+.overlay12 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container12:hover .overlay12 {
+  background-color: #555;
+}
+.overlay112 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 0px;
+  transition: .5s ease;
+}
+
+.text112 {
+	color: aliceblue;
+	font-size: 12px;
+	text-align:center;
+		
+}
+
+.container12:hover .overlay112 {
+  background-color: #555;
+}
+.text12 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 27px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc12 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 42px;
+  left: 75px;
+  text-align: center;
+}
+.image13 {
+  display: block;
+  width: 214px;
+  height: 230px;
+}
+
+.container13 {
+  position: absolute;
+  width: 15%;
+	top:1520px;
+	left:1080px;
+}
+.overlay13 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 60px;
+  transition: .5s ease;
+}
+
+.container13:hover .overlay13 {
+  background-color: #555;
+}
+.overlay113 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 214px;
+  height: 0px;
+  transition: .5s ease;
+}
+
+.text113 {
+	color: aliceblue;
+	font-size: 14px;
+	text-align:center;
+	padding: 20px;
+	
+}
+
+.container13:hover .overlay113 {
+  background-color: #555;
+}
+.text13 {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+  text-align: center;
+}
+.desc13 {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 42px;
+  left: 70px;
+  text-align: center;
+}
+
+.footer{
+	color: black; 
+	font-size: 20px; 
+	position: absolute; 
+	left:650px; 
+	top: 2240px; 
+	text-align: center;
+}
+
+.footersocials{ 
+	color: white; 
+	font-size: 20px; 
+	position: absolute; 
+	left:630px;
+	
+	top: 2130px;
+}
+
+.f1, .f2, .f3 {
+	padding:30px;
+	margin-top:30px;
+	
+}

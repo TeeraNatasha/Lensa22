@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+		color: black;
+	font-size: 60px;
+	letter-spacing: 20px;
+	position: absolute;
+	top: 250px;
+	left:520px;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("img_nature.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+#border {
+	position:absolute; border-left: 5px solid white;
+  width: 5px; height:550px; top:600px; left:660px;
+  padding: 50px;
+  margin: 20px;
+}
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0 ; top: 260px;
+	
+  margin-right: 180px; 
+  max-width: 550px;
+	height: 20px;
+  padding: 40px 30px 40px 50px;
+  background-color: transparent;
+}
+
+label[for=name],label[for=email],label[for=mssg]{
+	color:white; font-size: 30px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=email] {
+  width: 500px;
+	height: 20px;
+  padding: 30px;
+  margin: 5px 0 30px 0;
+  border-radius: 25px;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+  background-color: #ddd;
+  outline: none; 
+}
+
+input[type=mssg] {
+width: 500px;
+  padding: 60px;
+  margin: 5px 0 30px 0;
+  border-radius: 25px;
+  background: #f1f1f1;
+}
+
+input[type=mssg]:focus {
+background-color: #ddd;
+  outline: none;
+}
+	
+/* Set a style for the submit button */
+.btn {
+  background-color: darkblue;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 20%; margin-left: 80%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+#footer{
+	color: navy; font-size: 20px; position: absolute; left:600px; top: 1200px; text-align: center;
+	
+}
+#footersocials{ color: navy; font-size: 20px; position: absolute; left:660px; top: 1700px;
+}
+
+h li a {
+  display: block;
+  color: white;
+  padding: 10px;left: 100px;
+  text-decoration: none; 
+}
+
+h li a:hover:not(.active) {
+  background-color: #D8D8D8;
+}
+
+.footer{
+	color: black; 
+	font-size: 20px; 
+	position: absolute; 
+	left:630px; 
+	top: 1500px; 
+	text-align: center;
+}
+
+.footersocials{ 
+	color: white; 
+	font-size: 20px; 
+	position: absolute; 
+	left:650px; 
+	top: 1420px;
+}
+.f1, .f2, .f3 {
+	
+	margin-top:30px;
+	margin-left:30px;
+	
+}
+
+h li a {
+  display: block;
+  color: white;
+  padding: 10px;left: 100px;
+  text-decoration: none; 
+}
+
+h li a:hover:not(.active) {
+  background-color: #D8D8D8;
+}
+
+
+
